@@ -12,4 +12,311 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
 */
 
-/* Add your custom styles here */
+.extrabold {
+	font-weight: 900;
+}
+
+/* Hide testimonial plugin default profile image. */
+.tss-wrapper .single-item-wrapper .profile-img-wrapper .rt-responsive-img{
+	background: white;
+}
+
+.tss-wrapper .tss-carousel1 .item-content-wrapper, .tss-wrapper .tss-layout1 .item-content-wrapper {
+	background: white;
+	font-family: "Wavehaus 42";
+	margin-top: 7%
+	
+}
+
+h4.author-bio span {
+	text-transform: uppercase;
+}
+
+span.item-company {
+	display:block;	
+}
+
+h3.author-name, h4.author-bio span {
+	font-family: "Wavehaus 42"
+}
+
+/* img[src="https://zen-va.com/wp-content/uploads/2023/02/blankdummyimagetestimonials-150x150.png"] {
+	display: none;
+} */
+
+.tss-wrapper .rt-responsive-img {
+	width: 20%;
+}
+
+footer {
+	background: #E7E2DE;	
+}
+footer p:last-child {
+	margin-bottom: 0;
+}
+
+.nf-form-fields-required {
+	display: none;
+}
+
+.nf-form-cont {
+	display: flex;
+	flex-direction: column;
+}
+span.nf-form-title h3 {
+	text-align: center;
+	font-family: 'Wavehaus 42';
+	font-weight: bold;
+	padding-top: 4%;
+	font-size: 1.5em;
+}
+
+.tss-wrapper .tss-carousel1 .item-content-wrapper:before {
+	display: none;
+	background: white;
+}
+
+#mc4wp-form-2 {
+	width: 100%;
+}
+
+#mc4wp-form-2 > div.mc4wp-form-fields > input[type=text], .nf-form-content div.field-wrap .ninja-forms-field input:not([type=button]){
+	width: 80%;
+	max-width: 100%;
+
+}
+
+
+#mc4wp-form-2 p > input[type=text], #mc4wp-form-2 p > label > input[type=email], .nf-form-content div.field-wrap .ninja-forms-field input:not([type=button]) {
+	width: 100%;
+	height: 50px;
+	max-width: 100%;
+	border: 1px solid #c4c4c4;
+	background: #f4f4f4;
+}
+
+#mc4wp-form-2 p > input:focus,  #mc4wp-form-2 p > label > input:focus, .nf-form-content .list-select-wrap .nf-field-element>div, .nf-form-content input:not([type=button]), .nf-form-content textarea, .yikes-easy-mc-form input[type=text], .yikes-easy-mc-form input[type=email] {
+	background: #ffffff;
+}
+
+#mc4wp-form-2 p > label, #mc4wp-form-1 p > label, .nf-form-content input:not([type=button]){
+	font-family: "Wavehaus 42";
+	font-weight: 300;
+	
+}
+
+#mc4wp-form-2 p > input::placeholder, #mc4wp-form-2 p > label > input::placeholder, #mc4wp-form-1 p > input::placeholder, #mc4wp-form-1 p > label > input::placeholder, #mc4wp-form-1 p, .nf-form-content label, select#nf-field-12, textarea#nf-field-7, select option[selected] {
+	color: #787878; !important
+	opacity: 1;
+	font-family: "Wavehaus 42";
+	font-weight: 300;
+}
+
+
+#mc4wp-form-1 p, #mc4wp-form-2 p, #pum_popup_title_2856, #pum_popup_title_2651,
+#pum_popup_title_4038,
+#popmake_2651 .pum-theme-2642 .pum-content, .pum-theme-default-theme .pum-content {
+    font-family: "Wavehaus 42";
+    font-weight: 300;
+		
+} 
+
+
+
+div.pum-container.popmake.theme-2642.size-custom.pum-position-fixed.fixed.custom-position.active > #pum_popup_title_2856, div.pum-container.popmake.theme-2642.size-custom.pum-position-fixed.fixed.custom-position.active > #pum_popup_title_2651,
+#pum_popup_title_4038 {
+	font-size: 1.5em;
+	font-weight: bold; 
+	margin-right: 3%;
+
+}
+
+
+
+//submit button styling
+#mc4wp-form-2 p > input[type=submit], 
+#mc4wp-form-1 p > input[type=submit], .newsletter-form button[type=submit]  {
+	font-family: "Wavehaus 95 SemiBold";
+	font-weight: 400;
+}
+
+/* Mailchimp4WP has to use 
+ * !important to override the background color.
+ */ 
+#mc4wp-form-2 p > input[type=submit], #mc4wp-form-1 p > input[type=submit], input#nf-field-8, .yikes-easy-mc-submit-button {
+	color: white;
+	background-color: #bf661a; 
+	font-size: 14px;
+	width: 100%;
+	border: none;
+	text-transform: uppercase;
+	border-radius: 1.75em;
+	font-family: "Wavehaus 95 SemiBold";
+}
+
+#mc4wp-form-2 p > input[type=submit], #mc4wp-form-1 p > input[type=submit] {
+	background-color: #bf661a !important;
+	font-family: "Wavehaus 95 SemiBold";
+	font-size: 14px;
+	width: 100%;
+	border: none;
+	border-radius: 1.75em;
+}
+
+//close button styling
+.pum-theme-2642 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close {
+font-family: "Wavehaus 95 SemiBold";
+	width: 100%;
+	font-size: 14px !important;
+}
+
+.yikes-easy-mc-submit-button {
+	text-transform: uppercase;
+	border: none;
+	color: white;
+	background-color: #bf661a;
+	border-radius: 1.75em;
+}
+
+#mc4wp-form-2 p > [type=submit], #mc4wp-form-1 p > [type=submit], input:hover#nf-field-8, 
+.newsletter-form >[type=submit], [type=submit], button:focus, button, .newsletter-form > [type=submit] {
+	background-color: #bf661a !important;
+	color: white;
+	border: none;
+	width: 100%;
+	
+}
+
+#mc4wp-form-2 p > [type=submit]:hover, #mc4wp-form-1 p > [type=submit]:hover, input:hover#nf-field-8, 
+.newsletter-form >[type=submit]:focus, [type=submit]:hover, button:focus, button:hover, .newsletter-form > [type=submit]:hover {
+	background-color: #000000 !important;
+	
+	width: 100%;
+	
+}
+
+.nf-field .nf-field-label label {
+	font-weight: 300;
+}
+
+/* Dropdown menu */
+ul.sub-menu {
+	width: 195px;
+	padding-left: 0.75em;
+}
+
+a.hfe-sub-menu-item {
+	justify-content: flex-end !important;
+	margin-right: 75px;
+
+}
+
+#menu-item-5060 > a {
+	width: 50px;
+	margin-left: 4.5em;
+}
+
+/* Comments Section styling */
+h2#reply-title {
+    font-family: "Wavehaus 42";
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    
+}
+
+h2#reply-title.comment-reply-title {
+	font-family: "Wavehaus 42" !important;
+	font-size: 1.5rem;
+    font-weight: 900;
+}
+
+section#comments {
+	margin: 0 auto;
+	margin-bottom: 5%;
+	width: 70%;
+}
+
+p.comment-form-comment label, p.comment-form-author, p.comment-form-email, p.comment-form-url {
+	font-family: "Wavehaus 42";
+	font-size: 1.125rem;
+}
+
+p.comment-notes, #email-notes, p.comment-form-cookies-consent {
+	font-family: "Wavehaus 42";
+	font-size: 1.15rem;
+}
+
+p.comment-form-cookies-consent > label {
+    margin-bottom: 10px;
+}
+
+@media all and (min-width: 770px){
+	.left-footer-icon {
+	margin-left: 90%;
+}	
+	
+.right-footer-icon {
+		margin-right: 90%;
+	}
+}
+
+@media all and (max-width: 766px){
+	.elementor-element-b992e33, .elementor-element-c1341c9 {
+		flex-basis: 50%;
+		width: 50%;
+	}
+	
+	#menu-item-5060 > a {
+	margin-left: 0em;
+	margin-right: 0;
+	width: 250px;
+}
+	
+}
+
+@media all and (max-width: 1024px){
+	.elementor-2659 .elementor-element.elementor-element-54cee35 .elementor-heading-title {
+		font-size: 20px;
+	}
+}
+
+div.nf-error-msg.nf-error-field-errors {
+	margin-left: 20%;
+}
+
+#menu-1-1a76b9e li {
+	border-style: none;
+	
+}
+
+/* Editing the main menu */
+
+#masthead > div > div > section > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-b992e33 > div {
+	padding-bottom: 0;
+}
+
+div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-b992e33{
+	align-items: space-around;
+}
+
+
+/* Styling for Mobile menu */
+
+.elementor-2802 .elementor-element.elementor-element-f230029 .content-type-menu a {
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+	align-items: space-between;
+}
+
+/* Fix popup height stops scroll to top. */
+
+html.pum-open.pum-open-overlay,
+html.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+html.pum-open.pum-open-overlay.pum-open-scrollable .pum-overlay.pum-active {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
