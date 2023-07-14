@@ -241,7 +241,7 @@ p.comment-form-comment label, p.comment-form-author, p.comment-form-email, p.com
 	font-size: 1.125rem;
 }
 
-p.comment-notes, #email-notes, p.comment-form-cookies-consent {
+p.comment-notes, #email-notes, p.comment-form-cookies-consent, p.logged-in-as {
 	font-family: "Wavehaus 42";
 	font-size: 1.15rem;
 }
