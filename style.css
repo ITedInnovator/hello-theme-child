@@ -233,9 +233,8 @@ h2#reply-title.comment-reply-title {
 section#comments {
 	margin: 0 auto;
 	margin-bottom: 8%;
-	margin-left: 26%;
 	width: 912px;
-    max-width: 1800px;
+    max-width: 100%;
 }
 
 p.comment-form-comment label, p.comment-form-author, p.comment-form-email, p.comment-form-url {
@@ -277,9 +276,7 @@ p.comment-form-cookies-consent > label {
 section#comments {
 	margin: 0 auto;
 	margin-bottom: 8%;
-	margin-left: 10%;
 	width: 912px;
-    max-width: 1000px;
 }
 	
 }
