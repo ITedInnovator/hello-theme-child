@@ -234,7 +234,7 @@ section#comments {
 	margin: 0 auto;
 	margin-bottom: 8%;
 	width: 912px;
-    max-width: 100%;
+    max-width: 95%;
 }
 
 p.comment-form-comment label, p.comment-form-author, p.comment-form-email, p.comment-form-url {
