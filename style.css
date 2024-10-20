@@ -211,6 +211,7 @@ a.hfe-sub-menu-item {
 
 }
 
+
 /* Comments Section styling */
 h2#reply-title {
     font-family: "Wavehaus 42";
@@ -307,7 +308,7 @@ div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.ele
 .elementor-2802 .elementor-element.elementor-element-f230029 .content-type-menu a {
 	padding-top: 50px !important;
 	padding-bottom: 50px !important;
-	align-items: space-between;
+	text-align: justify;
 }
 
 /* Fix popup height stops scroll to top. */
