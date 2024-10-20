@@ -34,3 +34,5 @@ function hello_elementor_child_scripts_styles() {
 
 }
 add_action( 'wp_enqueue_scripts', 'hello_elementor_child_scripts_styles', 20 );
+
+add_filter('elementor/frontend/print_google_fonts', '__return_false');

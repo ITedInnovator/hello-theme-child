@@ -228,8 +228,9 @@ h2#reply-title.comment-reply-title {
 
 section#comments {
 	margin: 0 auto;
-	margin-bottom: 5%;
-	width: 70%;
+	margin-bottom: 8%;
+	width: 912px;
+    max-width: 95%;
 }
 
 p.comment-form-comment label, p.comment-form-author, p.comment-form-email, p.comment-form-url {
@@ -237,7 +238,7 @@ p.comment-form-comment label, p.comment-form-author, p.comment-form-email, p.com
 	font-size: 1.125rem;
 }
 
-p.comment-notes, #email-notes, p.comment-form-cookies-consent {
+p.comment-notes, #email-notes, p.comment-form-cookies-consent, p.logged-in-as {
 	font-family: "Wavehaus 42";
 	font-size: 1.15rem;
 }
@@ -266,6 +267,12 @@ p.comment-form-cookies-consent > label {
 	margin-left: 0em;
 	margin-right: 0;
 	width: 250px;
+}
+
+section#comments {
+	margin: 0 auto;
+	margin-bottom: 8%;
+	width: 912px;
 }
 	
 }
