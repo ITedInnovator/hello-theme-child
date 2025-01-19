@@ -248,6 +248,9 @@ p.comment-form-cookies-consent > label {
 }
 
 @media all and (min-width: 770px){
+	.rt-responsive-img {
+		margin-inline-start: 40%;
+	}
 	.left-footer-icon {
 	margin-left: 90%;
 }	
