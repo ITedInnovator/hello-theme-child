@@ -106,7 +106,7 @@ span.nf-form-title h3 {
 }
 
 #mc4wp-form-2 p > input::placeholder, #mc4wp-form-2 p > label > input::placeholder, #mc4wp-form-1 p > input::placeholder, #mc4wp-form-1 p > label > input::placeholder, #mc4wp-form-1 p, .nf-form-content label, select#nf-field-12, textarea#nf-field-7, select option[selected] {
-	color: #787878; !important
+	color: #787878 !important;
 	opacity: 1;
 	font-family: "Wavehaus 42";
 	font-weight: 300;
@@ -133,7 +133,7 @@ div.pum-container.popmake.theme-2642.size-custom.pum-position-fixed.fixed.custom
 
 
 
-//submit button styling
+/* submit button styling */
 #mc4wp-form-2 p > input[type=submit], 
 #mc4wp-form-1 p > input[type=submit], .newsletter-form button[type=submit]  {
 	font-family: "Wavehaus 95 SemiBold";
@@ -163,7 +163,7 @@ div.pum-container.popmake.theme-2642.size-custom.pum-position-fixed.fixed.custom
 	border-radius: 1.75em;
 }
 
-//close button styling
+/* close button styling */
 .pum-theme-2642 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close {
 font-family: "Wavehaus 95 SemiBold";
 	width: 100%;
@@ -266,10 +266,18 @@ p.comment-form-cookies-consent > label {
 		width: 50%;
 	}
 	
-	#menu-item-5060 > a {
+	ul.sub-menu li a.hfe-sub-menu-item {
 	margin-left: 0em;
-	margin-right: 0;
-	width: 250px;
+	margin-right: 90%;
+	width: 80px;
+}
+
+li#menu-item-5052 a{
+	width: 100px;
+}
+
+li#menu-item-5061 a {
+	width: 130px;
 }
 
 section#comments {
@@ -283,6 +291,17 @@ section#comments {
 @media all and (max-width: 1024px){
 	.elementor-2659 .elementor-element.elementor-element-54cee35 .elementor-heading-title {
 		font-size: 20px;
+	}
+}
+
+/* Ensuring the menu fits on tablet screens */
+@media all and (max-width: 1268px) and (min-width: 1025px){
+	.elementor-widget-container {
+		margin-left: 0 !important;
+	}
+
+	.elementor-2802 .elementor-element.elementor-element-1a76b9e a.hfe-menu-item, .elementor-2802 .elementor-element.elementor-element-1a76b9e a.hfe-sub-menu-item {
+		font-size: 0.9rem;
 	}
 }
 
@@ -304,7 +323,6 @@ div.nf-error-msg.nf-error-field-errors {
 div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-b992e33{
 	align-items: space-around;
 }
-
 
 /* Styling for Mobile menu */
 
