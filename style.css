@@ -122,9 +122,9 @@ span.nf-form-title h3 {
 #mc4wp-form-1 p, #mc4wp-form-2 p, #pum_popup_title_2856, #pum_popup_title_2651,
 #pum_popup_title_4038,
 #popmake_2651 .pum-theme-2642 .pum-content, .pum-theme-default-theme .pum-content {
-    font-family: "Wavehaus 42";
-    font-weight: 300;
-		
+	font-family: "Wavehaus 42";
+	font-weight: 300;
+	
 } 
 
 
@@ -133,7 +133,7 @@ div.pum-container.popmake.theme-2642.size-custom.pum-position-fixed.fixed.custom
 #pum_popup_title_4038 {
 	font-size: 1.5em;
 	font-weight: bold; 
-	margin-right: 3%;
+	margin-right: 10%;
 
 }
 
@@ -146,9 +146,9 @@ div.pum-container.popmake.theme-2642.size-custom.pum-position-fixed.fixed.custom
 	font-weight: 400;
 }
 
-/* Mailchimp4WP has to use 
+/* /* Mailchimp4WP has to use 
  * !important to override the background color.
- */ 
+ */  */
 #mc4wp-form-2 p > input[type=submit], #mc4wp-form-1 p > input[type=submit], input#nf-field-8, .yikes-easy-mc-submit-button {
 	color: white;
 	background-color: #bf661a; 
@@ -171,10 +171,11 @@ div.pum-container.popmake.theme-2642.size-custom.pum-position-fixed.fixed.custom
 
 /* close button styling */
 .pum-theme-2642 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close {
-font-family: "Wavehaus 95 SemiBold";
-	width: 100%;
+	font-family: "Wavehaus 95 SemiBold";
+	/* width: 100%; */
 	font-size: 14px !important;
 }
+	
 
 .yikes-easy-mc-submit-button {
 	text-transform: uppercase;
