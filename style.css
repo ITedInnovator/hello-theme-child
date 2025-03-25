@@ -160,7 +160,7 @@ div.pum-container.popmake.theme-2642.size-custom.pum-position-fixed.fixed.custom
 	font-family: "Wavehaus 95 SemiBold";
 }
 
-#mc4wp-form-2 p > input[type=submit], #mc4wp-form-1 p > input[type=submit] {
+#mc4wp-form-2 p > input[type=submit], #mc4wp-form-1 p > input[type=submit], input#nf-field-8 {
 	background-color: #bf661a !important;
 	font-family: "Wavehaus 95 SemiBold";
 	font-size: 14px;
@@ -205,6 +205,10 @@ div.pum-container.popmake.theme-2642.size-custom.pum-position-fixed.fixed.custom
 .nf-field .nf-field-label label {
 	font-weight: 300;
 }
+
+/* #nf-field-8-wrap #nf-field-8 {
+	width: 100%;
+} */
 
 /* Dropdown menu */
 ul.sub-menu {
